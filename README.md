@@ -4,6 +4,6 @@
  |#|title|link|
 |--|--|--|
 |1|installation|[go to class1](./classes/class1.md)
-|2|html tages|[go to class2](./classes/class2.md)
+|2|html tages|[go to class3](./classes/class3.md)
 
 
