@@ -6,4 +6,7 @@
 |--|--|--|
 |1|installation|[go to class1](./classes/class1.md)
 
+<<<<<<< HEAD
+>>>>>>> 5ceb33f03a706e676b3710e93c8d491f5242cfa4
+=======
 >>>>>>> 5ceb33f03a706e676b3710e93c8d491f5242cfa4
