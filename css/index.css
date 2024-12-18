@@ -1,0 +1,21 @@
+i
+   {
+      color:blue
+   }
+   li
+   {
+      color: black
+   }
+   .item1{
+      color: brown
+   }
+h6
+{
+ color: #f4f4f4;;
+ font-size: 40px;
+ background-color: rgb(50, 20, 10,.6);
+ padding: 30px 40px ;
+ margin: 50px; 
+ border: dotted 3px;
+}
+
