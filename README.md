@@ -5,3 +5,4 @@
 |--|--|--|
 |1|installation|[go to class1](./classes/class1.md)
 |2|html tags|[go to class2](./classes/class2.md)
+|3|css style|[go to class3](./classes/class3.md
