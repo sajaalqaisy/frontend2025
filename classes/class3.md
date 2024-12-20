@@ -6,4 +6,4 @@
    - tag name
    - class name
 3.  external style file
-    - ex : [back](./index.css) 
+    - ex : [back](./css/index.css) 
