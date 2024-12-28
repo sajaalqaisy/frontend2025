@@ -1,0 +1,35 @@
+.button 
+{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left:200px ;
+    margin-right:100px ;
+    float: right;
+}
+.logo
+{
+  width:100px;
+  border-radius: 50px;
+}
+#navbar{
+    background-color:gray ;
+    border-radius:20px ;
+   padding:  10px;
+}
+#navbar2{
+    background-color: brown;
+    margin-top: 20px;
+    
+}
+#navlist{
+    list-style: none;
+    display: flex;
+}
+.items
+{
+    margin-right: 33%;
+}
