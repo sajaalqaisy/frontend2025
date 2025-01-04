@@ -39,8 +39,53 @@ body
     margin-right: 33%;
     
 }
-#grid
+/*#grid
 {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+    */
+
+.header{
+    grid-area: header;
+    background-color:red;
+}    
+.leftMenu{
+    grid-area: leftMenu;
+    background-color:blue;
+}    
+.rightMenu{
+    grid-area: rightMenu;
+    background-color:green;
+}    
+.contant{
+    grid-area: contant;
+    background-color:gray;
+}    
+.footer{
+    grid-area: footer;
+    background-color:aqua;
+}    
+#contener
+{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "leftMenu contant contant contant rightMenu "
+    "leftMenu footer footer footer footer";
+}
+.button1{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    border-radius: 50px;
+
+}
+.button2{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    border-radius: 50px;
 }
