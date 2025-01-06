@@ -48,7 +48,7 @@ body
 
 .header{
     grid-area: header;
-    background-color:red;
+    background-color:aqua;
 }    
 .leftMenu{
     grid-area: leftMenu;
