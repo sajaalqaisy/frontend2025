@@ -1,0 +1,15 @@
+.newlink{
+    color: aqua;
+}
+body{
+    background-color: brown;
+}
+#test{
+color: aqua;
+}
+#datatable{
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
