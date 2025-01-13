@@ -19,6 +19,7 @@ body
 {
   width:100px;
   border-radius: 50px;
+  align-items: center;
 }
 #navbar{
     background-color:pink;
@@ -28,16 +29,30 @@ body
 #navbar2{
     background-color: rgb(80, 105, 134);
     margin-top: 20px;
+    padding-left: 50px;;
     
 }
 #navlist{
     list-style: none;
+    /*display all item in the same line*/
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px; 
 }
 .items
 {
-    margin-right: 33%;
+    margin-right: 20%; /*لما اضيف كمان باتون بقللها*/
+    display: flex;
+    align-items: center;
+  
     
+}
+.nbutton{
+    padding: 40%;
+    border-radius: 20px;
+
 }
 /*#grid
 {
