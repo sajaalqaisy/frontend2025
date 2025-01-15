@@ -1,0 +1,26 @@
+.body{
+display:flex ;
+justify-content: center;
+align-items:center ;
+width: 500px;
+margin: 0;
+background-color: aqua;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+
+}
+.box:hover{
+    background-color: aliceblue;
+    transform: translate(30px,40px);
+}
