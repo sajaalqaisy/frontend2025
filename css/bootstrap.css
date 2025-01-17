@@ -12,4 +12,27 @@ color: aqua;
     border: 1px solid black;
     text-align: center;
     margin: auto;
+    margin-top: 50px;
+    background-color: aliceblue;
 }
+.tablerow>td{
+    border: 1px solid black;
+    color: palevioletred;
+}
+.tablehead>th{
+    border: 1px solid black;
+
+}
+.col{
+    background-color: aliceblue;
+   
+}
+.row{
+    grid-gap: 10px;
+    margin: 10px;
+   
+}
+.container{
+    margin-top: 50px;
+}
+
