@@ -21,10 +21,10 @@ var white=document.getElementById('theme')
     })
     var infoform=document.getElementById('infoform' )
     var container=document.getElementsByClassName('container')[0]
-    infoform.addEventListener('submit',function(event)){
+    infoform.addEventListener('submit',function(event){
         event.preventDefault();
         var infoform=document.getElementById('info').value
         var infop=document.createElement('p')
         infop.innerText=info
         container.appendChild(infop)
-    }
+    })

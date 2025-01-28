@@ -104,17 +104,11 @@ body
     font-size: large;
     border-radius: 50px;
 }
-@media screen(max-width:500px) {
-    .button{
-        margin-top: 10px;
-    }
-    #contener
-{
-    
-    grid-template-areas: 
-    "header header header header header"
-    "leftMenu contant contant contant rightMenu "
-    "leftMenu footer footer footer footer";
+/* @media screen (max-width:500px) {
+
+.button{
+ margin-top: 10px;
 }
 
-}
+
+} */
