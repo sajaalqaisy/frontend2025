@@ -42,4 +42,44 @@ calculate.addEventListener('submit',function(event){
     var r=document.getElementById('r')
     r.innerText=sumation
 })
+var prime =document.getElementById('prime')
+
+prime.addEventListener('submit',function(event){
+    event.preventDefault();
+    var isprime = false
+var primeOrnot=document.getElementById('primeOrnot').value
+var p=document.getElementById('isprime')
+      for(var i=2 ; i<parseInt(primeOrnot);i++){
+        if(parseInt(primeOrnot)%i==0){
+           isprime =false
+           break;
+        }
+        else {
+                 isprime=true
+        }
+
+    }
+    if(isprime== false){
+        p.innerText='not prime' 
+        
+    }
+    else {
+        p.innerText='prime'  
+    }
+     
+})
+var theme=document.getElementById('theme')
+document.body.style.backgroundColor=localStorage.getItem('theme')  
+theme.addEventListener('change',function(event){
+    if(theme.value=='dark'){
+        document.body.style.backgroundColor='black'
+        localStorage.setItem('theme','black')
+    }
+    if(theme.value=='light'){
+        document.body.style.backgroundColor='white'
+        localStorage.setItem('theme','white')
+        
+    }
+
+})
 
