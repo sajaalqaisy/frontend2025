@@ -17,9 +17,10 @@
     background-color: rgba(0, 255, 179,0.5);
 }
 #box2{
-    float: left;
+    float: right;
     position: absolute;
     top: 70px;
-    left: 80px;
+   right: 160px;
+
     
 }

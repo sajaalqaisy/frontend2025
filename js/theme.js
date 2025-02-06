@@ -29,3 +29,38 @@ var white=document.getElementById('white')
     infoP.innerText=info
     container.appendChild(infoP)
    })
+var changeLang=document.getElementById('changeLang')
+var langlable =document.getElementById('langlable')
+var lang=localStorage.getItem('lang')
+if(lang=='en'){
+    document.dir='ltr'
+    langlable.innerText='EN'
+}
+else{
+    document.dir='rtl'
+    langlable.innerText='AR'
+}
+changeLang.addEventListener('click',function(){
+    if(changeLang.checked==false){
+        document.dir='ltr'
+        langlable.innerText='EN'
+        localStorage.setItem('lang','en')
+    }
+    else{
+        document.dir='rtl'
+         langlable.innerText='AR'
+         localStorage.setItem('lang','ar')
+    }
+})
+var box2=document.getElementById('box2')
+var hidebutton=document.getElementById('hidebutton')
+function hidebox(){
+    if(  hidebutton.innerText=='show'){
+        box2.style.display='block'
+        hidebutton.innerText='hide' 
+    }
+    else{box2.style.display='none'
+    hidebutton.innerText='show'}
+    
+
+}

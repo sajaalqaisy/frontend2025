@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                  theme
                 </a>
-                <button id="hide" onclick="hideb()">hide</button>
+          
                 <ul class="dropdown-menu">
             
                   <li id="white"><a class="dropdown-item" href="#">white</a></li>
@@ -32,9 +32,19 @@
                   
                 </ul>
               </li>
-        
-              
+               <li>
+                <div class="form-check form-switch">
+                  <input id="changeLang" class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                  <label id="langlable" class="form-check-label" for="flexSwitchCheckChecked">EN</label>
+                </div>
+               </li>
+               
+                <!-- <li>
+                  <button id="hide" onclick="hidebutton()">hide</button>
+                </li> -->
+             
             </ul>
+            <button id="hidebutton" onclick="hidebox()">hide</button>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
              
@@ -42,6 +52,7 @@
             </form>
           </div>
         </div>
+       
       </nav>
       <div class="container">
       <img  src="download.jpeg" alt="this is image"/>
