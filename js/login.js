@@ -3,10 +3,20 @@ var password=document.getElementById('password')
 var loginform=document.getElementById('loginform')
 loginform.addEventListener("submit",function(event){
     event.preventDefault();
-    if(email.value==localStorage.getItem("emailAddress") && password.value==localStorage.getItem("password")){
-        window.location.href="./theme.html"
+/*access to local storage*/
+ var userList=localStorage.getItem(JSON.parse('user'));
+ var passlogin=false
+ for (var i=0;i<userList.length;i++){
+
+    if(email.value==userList[i].email && password.value==userList[i].password){
+       passlogin=true
+       break;
     }
-    else{
-        alert('wrong password or email')
-    }
+
+    if(passlogin==true){
+         window.location.href="./theme.html"}
+        else{
+            alert('wrong password or email')
+        }
+}
 })   
