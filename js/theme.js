@@ -49,7 +49,7 @@ changeLang.addEventListener('click',function(){
     else{
         document.dir='rtl'
          langlable.innerText='AR'
-         localStorage.setItem('lang','ar')
+        localStorage.setItem('lang','ar')
     }
 })
 var box2=document.getElementById('box2')
