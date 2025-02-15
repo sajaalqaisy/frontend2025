@@ -34,7 +34,7 @@ var registerform=document.getElementById('registerform');
    }
 
    
-    userList.append(user)
+    userList.push(user)
  
     localStorage.setItem('user',JSON.stringify(userList));
 
